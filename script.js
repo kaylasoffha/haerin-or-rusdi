@@ -30,7 +30,7 @@ function revealBox(box, index) {
     disableAll();
 
     setTimeout(() => {
-      showModal('Sayang sekali, kamu harus apply job/internship :(');
+      showModal('sorry, you have to apply for a job/internship :(');
     }, 1500);
   } else {
     back.classList.add('aman');
@@ -42,7 +42,7 @@ function revealBox(box, index) {
     if (revealedCount === boxes.length - 1) {
       disableAll();
       setTimeout(() => {
-        showModal('Selamat! Kamu unemployed! :)');
+        showModal('congratulations! you are unemployed! :)');
       }, 1500);
     }
   }
