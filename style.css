@@ -1,5 +1,4 @@
 body {
-  background-image: url("image.png");
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -56,7 +55,7 @@ header {
 }
 
 .card-front {
-  background-color: #0101FF;
+  background-color: #191919;
 }
 
 .card-back {
@@ -68,14 +67,14 @@ header {
 }
 
 .card-back.aman {
-  background-image: url('image2.jpg');
+  background-image: url('1.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .card-back.zonk {
-  background-image: url('image1.jpg');
+  background-image: url('2.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -117,7 +116,7 @@ header {
 }
 
 .modal-content {
-  background-color: #0101FF;
+  background-color: #191919;
   margin: 15% auto;
   padding: 30px;
   width: 300px;
