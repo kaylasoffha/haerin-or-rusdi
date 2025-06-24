@@ -37,7 +37,7 @@ function revealBox(box, index) {
     const point = Math.floor(Math.random() * 10 + 1);
     score += point;
     revealedCount++;
-    scoreDisplay.textContent = `Skor: ${score}`;
+    scoreDisplay.textContent = `Score: ${score}`;
 
     if (revealedCount === boxes.length - 1) {
       disableAll();
