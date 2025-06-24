@@ -42,7 +42,7 @@ function revealBox(box, index) {
     if (revealedCount === boxes.length - 1) {
       disableAll();
       setTimeout(() => {
-        showModal('congratulations! you match with Haerin! :)');
+        showModal('congratulations! you match with Haerin! >_<');
       }, 1500);
     }
   }
