@@ -30,7 +30,7 @@ function revealBox(box, index) {
     disableAll();
 
     setTimeout(() => {
-      showModal('sorry, you have to apply for a job/internship :(');
+      showModal('oh no, you match with Rusdi :P');
     }, 1500);
   } else {
     back.classList.add('aman');
@@ -42,7 +42,7 @@ function revealBox(box, index) {
     if (revealedCount === boxes.length - 1) {
       disableAll();
       setTimeout(() => {
-        showModal('congratulations! you are unemployed! :)');
+        showModal('congratulations! you match with Haerin! :)');
       }, 1500);
     }
   }
